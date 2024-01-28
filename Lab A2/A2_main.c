@@ -2,7 +2,7 @@
 #include <locale.h>
 
 int lab2(short int x, char y, char z) {
-  printf("x = %x, z = %x, y=%x\n", x, z, y);
+  printf("x = %x, z = %x, y = %x\n", x, z, y);
 
   short vC, vA;
   // Блок определения переменных
