@@ -45,10 +45,10 @@ int lab2(short int x, char y, char z) {
 }
 
 int main() {
-  printf("Lab A2\nVar 27\n\n");
+  printf("Lab A2\nVar 27\n\nTest 1\n");
   lab2(0x7, -0x2, -0x1);
   printf("Expected result: v = %d, %x\n", -0xA, -0xA);
-  printf("\n");
+  printf("\nTest 2\n");
   lab2(0x3AF, -0x71, 0x5E);
   printf("Expected result: v = %d, %x\n", 0x1E0, 0x1E0);
   getchar();
